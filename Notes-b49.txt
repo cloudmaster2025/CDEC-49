@@ -1,0 +1,52 @@
+     Git -> version control system which keep record of every changes performed by the user.
+         -> it works on local system/computer
+         -> it work CLI mode
+         -> Repository = A directory which got power to handle the git actions  $git init directory-name
+         -> every git command uses git as a prefix of it
+    
+
+      Git lifecycle :   working area       ->   staged area     ->    committed area {recorded}   
+                        
+                        file editing	        Tracked file             commit
+                        untracked file          $git add filename       $git commit -m "message"
+                  $ git init 
+                  $ git status 
+                  $ git add .
+                  $ git commit -m "message of ur choice"
+                  $ git log             {to show commits}
+                  $ git show <commit-id>
+                  $ git config --global --list
+                  $ git config --global user.name Hiren
+                  $ git config --global user.email hiren@cloudblitz.com
+                  $ git commit -a -m "latest-feature-commit       {for modified file }
+
+                  
+                 
+           Task: git revert, git restore, git reset(its type)
+
+
+
+                                 Branching strategy
+
+          To prevent you main or live branch to get disturb we you branching strategy.
+                 $ git branch
+                 $ git branch  <branch-name>    {to create new branch}
+                 $ git checkout <branch-name>
+                 
+         Do all modifications on your feature branch and then merge it to main
+         
+                 $ git diff <feature-branch>
+                 $ git merge <feature-branch>
+                        
+                                GitHub
+
+     A web application (website) which help to centralise our code.
+     Cetral/Remote repository
+
+
+      Source Code Management Tool (SCM)
+
+      
+
+
+
